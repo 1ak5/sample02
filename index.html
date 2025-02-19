@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Glass Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Mouse Gradient Follow -->
+    <div class="mouse-gradient"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Update Navigation -->
+        <nav class="top-nav">
+            <div class="nav-logo">
+                <span>Portfolio.</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="menu-btn">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+
+        <!-- Update Hero Section -->
+        <section id="home" class="hero">
+            <div class="glass-card hero-content">
+                <div class="hero-text">
+                    <span class="welcome-text">Welcome to my Portfolio</span>
+                    <h1>Hi, I'm <span class="highlight">John Doe</span></h1>
+                    <div class="role-text">
+                        <span class="gradient-text">Full Stack Developer</span>
+                        <p class="hero-description">
+                            Crafting digital experiences with modern technologies and creative design solutions.
+                        </p>
+                    </div>
+                    <div class="cta">
+                        <a href="#contact" class="btn primary">
+                            <i class='bx bx-envelope'></i>
+                            Get in Touch
+                        </a>
+                        <a href="#work" class="btn secondary">
+                            <i class='bx bx-briefcase'></i>
+                            View Projects
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="image-wrapper">
+                            <img src="assets/images/profile.jpg" alt="Profile">
+                        </div>
+                        <div class="experience-badge">
+                            <span class="number">5+</span>
+                            <span class="text">Years<br>Experience</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <i class='bx bxl-react'></i>
+                        </div>
+                        <div class="tech-item">
+                            <i class='bx bxl-nodejs'></i>
+                        </div>
+                        <div class="tech-item">
+                            <i class='bx bxl-python'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>My Introduction</p>
+            </div>
+            <div class="glass-card about-content">
+                <div class="about-text">
+                    <p>Your introduction will go here...</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Years<br>Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Completed<br>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Happy<br>Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Recent Work</p>
+            </div>
+            <div class="work-grid">
+                <!-- Work cards will be added dynamically -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <p>My Technical Level</p>
+            </div>
+            <div class="skills-container">
+                <!-- Skill cards will be added dynamically -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <p>Get in Touch</p>
+            </div>
+            <div class="contact-container">
+                <div class="glass-card contact-info">
+                    <div class="info-item">
+                        <i class='bx bx-envelope'></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class='bx bx-phone'></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class='bx bx-map'></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>New York, USA</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="glass-card contact-form">
+                    <div class="form-group">
+                        <input type="text" required>
+                        <label>Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" required>
+                        <label>Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea required></textarea>
+                        <label>Your Message</label>
+                    </div>
+                    <button type="submit" class="btn primary">
+                        Send Message
+                        <i class='bx bx-send'></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Update footer section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="tooltip" data-tooltip="Github">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="#" class="tooltip" data-tooltip="LinkedIn">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="#" class="tooltip" data-tooltip="Twitter">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="#" class="tooltip" data-tooltip="Instagram">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
